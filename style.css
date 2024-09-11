@@ -27,7 +27,6 @@ div > img{
     margin: 0 auto;
    border-radius: 50%;
 }
-
 .per{
     text-align: center;
     color: white;
@@ -50,12 +49,30 @@ div > img{
     margin:0 auto 10px auto;
     width: 70%;
     font-size: 16px;
-    font-weight: bold !important;
+    font-weight: bold ;
     border-radius: 15px;
     border: none;
     background-color: rgb(99, 93, 93);
     color: white;
     padding:10px 20px;
-    font-weight: normal;
     cursor: pointer;
+}
+.click > button.primeiro{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.click > button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.click > button.primeiro:hover{
+    background-color: rgba(0, 0, 0, 0.808);
+    color: hsl(75, 94%, 57%);
+}
+@media screen and (max-width:520px){
+    section.main{
+        width: 95%;
+        min-width: 0;
+        border-radius: 20px;
+    }
 }
